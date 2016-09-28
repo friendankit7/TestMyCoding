@@ -23,7 +23,7 @@ public class LambdaFITest {
 		System.out.println(" Java 7 Anonymous class way ");
 		displayPersonList(result);
 		result = getPersonWithJava8(personList, p -> p.getAge() > 20 && p.getSalary() > 10000);
-		System.out.println(" Java 8 Lambda expression way   ");
+		System.out.println(" Java 8 Branch Dev1 Lambda expression way   ");
 		displayPersonList(result);
 	}
 
